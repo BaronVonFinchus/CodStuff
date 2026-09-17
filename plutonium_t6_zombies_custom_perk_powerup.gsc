@@ -99,6 +99,7 @@ watch_perk_button()
     }
 }
 //i like penis//
+//me too!
 on_random_perk_bonus_drop()
 {
     level endon("end_game");
