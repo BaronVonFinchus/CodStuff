@@ -522,7 +522,7 @@ modern_counters_hud()
     self.panel_bg.alignX = "left";
     self.panel_bg.alignY = "bottom";
     self.panel_bg.horzAlign = "user_left";
-    self.panel_bg.vertAlign = "user_top";
+    self.panel_bg.vertAlign = "user_bottom";
     self.panel_bg.x = 5;
     self.panel_bg.y = 5;
     self.panel_bg setShader("white", 100, 52); 
