@@ -21,7 +21,6 @@ init()
     // ==========================================
     level.perk_purchase_limit = 50; 
     level.host_only_commands = true; // true = Host Only, false = Everyone
-
     level thread onPlayerConnect();
     level thread chat_command_listener();
     level thread remove_quick_revive_limit(); 
@@ -523,8 +522,8 @@ modern_counters_hud()
     self.panel_bg.alignY = "bottom";
     self.panel_bg.horzAlign = "user_left";
     self.panel_bg.vertAlign = "user_bottom";
-    self.panel_bg.x = 5;
-    self.panel_bg.y = 5;
+    self.panel_bg.x = 0;
+    self.panel_bg.y = 0;
     self.panel_bg setShader("white", 100, 52); 
     self.panel_bg.color = (0, 0, 0);
     self.panel_bg.alpha = 0.6;
@@ -535,8 +534,8 @@ modern_counters_hud()
     self.panel_line.alignY = "bottom";
     self.panel_line.horzAlign = "user_left";
     self.panel_line.vertAlign = "user_bottom";
-    self.panel_line.x = 5;
-    self.panel_line.y = 5;
+    self.panel_line.x = 0;
+    self.panel_line.y = 0;
     self.panel_line setShader("white", 3, 52); 
     self.panel_line.color = (0, 0.6, 1);
     self.panel_line.alpha = 1;
@@ -547,8 +546,8 @@ modern_counters_hud()
     self.zombie_text.alignY = "bottom";
     self.zombie_text.horzAlign = "user_left";
     self.zombie_text.vertAlign = "user_bottom";
-    self.zombie_text.x = 12;
-    self.zombie_text.y = 8;
+    self.zombie_text.x = 7;
+    self.zombie_text.y = 3;
     self.zombie_text.fontscale = 1.2;
     self.zombie_text.color = (1, 1, 1);
     self.zombie_text.label = &"Zombies: ^5"; 
@@ -559,8 +558,8 @@ modern_counters_hud()
     self.round_time_text.alignY = "bottom";
     self.round_time_text.horzAlign = "user_left";
     self.round_time_text.vertAlign = "user_bottom";
-    self.round_time_text.x = 12;
-    self.round_time_text.y = 23;
+    self.round_time_text.x = 7;
+    self.round_time_text.y = 18;
     self.round_time_text.fontscale = 1.2;
     self.round_time_text.color = (1, 1, 1);
     self.round_time_text.label = &"Round: ^5";
@@ -571,8 +570,8 @@ modern_counters_hud()
     self.game_time_text.alignY = "bottom";
     self.game_time_text.horzAlign = "user_left";
     self.game_time_text.vertAlign = "user_bottom";
-    self.game_time_text.x = 12;
-    self.game_time_text.y = 38;
+    self.game_time_text.x = 7;
+    self.game_time_text.y = 33;
     self.game_time_text.fontscale = 1.2;
     self.game_time_text.color = (1, 1, 1);
     self.game_time_text.label = &"Game: ^5";
