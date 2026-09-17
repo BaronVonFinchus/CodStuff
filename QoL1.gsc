@@ -581,7 +581,7 @@ modern_counters_hud()
     self thread update_zombie_counter_modern();
     self thread update_round_timer_modern();
 }
-
+/pepe
 update_zombie_counter_modern()
 {
     self endon("disconnect");
