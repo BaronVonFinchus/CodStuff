@@ -523,8 +523,8 @@ modern_counters_hud()
     self.panel_bg.alignY = "bottom";
     self.panel_bg.horzAlign = "user_left";
     self.panel_bg.vertAlign = "user_top";
-    self.panel_bg.x = 15;
-    self.panel_bg.y = 15;
+    self.panel_bg.x = 5;
+    self.panel_bg.y = 5;
     self.panel_bg setShader("white", 100, 52); 
     self.panel_bg.color = (0, 0, 0);
     self.panel_bg.alpha = 0.6;
@@ -535,8 +535,8 @@ modern_counters_hud()
     self.panel_line.alignY = "bottom";
     self.panel_line.horzAlign = "user_left";
     self.panel_line.vertAlign = "user_bottom";
-    self.panel_line.x = 15;
-    self.panel_line.y = 15;
+    self.panel_line.x = 5;
+    self.panel_line.y = 5;
     self.panel_line setShader("white", 3, 52); 
     self.panel_line.color = (0, 0.6, 1);
     self.panel_line.alpha = 1;
@@ -618,7 +618,7 @@ ezz_bars_hud()
     hp_height = 8;
     shield_height = 3;  
     bg_padding = 4;
-    y_bottom_anchor = -10; 
+    y_bottom_anchor = -50; 
 
     self.hp_text = newClientHudElem(self);
     self.hp_text.alignX = "center";
