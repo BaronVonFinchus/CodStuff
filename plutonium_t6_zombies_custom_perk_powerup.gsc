@@ -453,8 +453,6 @@ custom_give_perk( perk, bought, custom, saved_perk )
             self.num_perks++;
         }
     }
-	self iprintln(perk);
-	self iprintln(self.num_perks);
 }
 
 perk_hud_create( perk, custom, print )

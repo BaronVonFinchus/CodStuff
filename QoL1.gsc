@@ -617,7 +617,7 @@ ezz_bars_hud()
     hp_height = 8;
     shield_height = 3;  
     bg_padding = 4;
-    y_bottom_anchor = -40; 
+    y_bottom_anchor = 0; 
 
     self.hp_text = newClientHudElem(self);
     self.hp_text.alignX = "center";
