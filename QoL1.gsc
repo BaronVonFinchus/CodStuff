@@ -534,7 +534,7 @@ modern_counters_hud()
     self.panel_line.alignY = "bottom";
     self.panel_line.horzAlign = "user_left";
     self.panel_line.vertAlign = "user_bottom";
-    self.panel_line.x = 65;
+    self.panel_line.x = 130;
     self.panel_line.y = -5;
     self.panel_line setShader("white", 3, 52); 
     self.panel_line.color = (0, 0.6, 1);
@@ -546,7 +546,7 @@ modern_counters_hud()
     self.zombie_text.alignY = "bottom";
     self.zombie_text.horzAlign = "user_left";
     self.zombie_text.vertAlign = "user_bottom";
-    self.zombie_text.x = 70;
+    self.zombie_text.x = 140;
     self.zombie_text.y = -12;
     self.zombie_text.fontscale = 1.2;
     self.zombie_text.color = (1, 1, 1);
@@ -558,7 +558,7 @@ modern_counters_hud()
     self.round_time_text.alignY = "bottom";
     self.round_time_text.horzAlign = "user_left";
     self.round_time_text.vertAlign = "user_bottom";
-    self.round_time_text.x = 70;
+    self.round_time_text.x = 140;
     self.round_time_text.y = -28;
     self.round_time_text.fontscale = 1.2;
     self.round_time_text.color = (1, 1, 1);
@@ -570,7 +570,7 @@ modern_counters_hud()
     self.game_time_text.alignY = "bottom";
     self.game_time_text.horzAlign = "user_left";
     self.game_time_text.vertAlign = "user_bottom";
-    self.game_time_text.x = 70;
+    self.game_time_text.x = 140;
     self.game_time_text.y = -43;
     self.game_time_text.fontscale = 1.2;
     self.game_time_text.color = (1, 1, 1);
